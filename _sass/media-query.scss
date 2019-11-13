@@ -1,0 +1,25 @@
+#mob-nav {
+    display:none;
+  }
+  
+  .mobile-nav-container {
+    display:none;
+  }
+  @media screen and (max-width: 947px) {
+    #dsk-nav{
+      display:none;
+    }
+    .mobile-nav-container {
+      display:none;
+    }
+    #mob-nav {
+      position:relative;
+      display:block;
+    }
+        .fas, .fa-bars {
+      color:white;
+      margin-top:25px;
+      margin-right:25px;
+      display:block;
+    }
+  }
